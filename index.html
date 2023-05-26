@@ -1,0 +1,341 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catlogue</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="handling.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav_bar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#nav_bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16" id="bag_logo">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+            </svg>
+            Vino Collections
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#icon_grid">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Catlogue
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="chain.html">Necklace</a></li>
+                  <li><a class="dropdown-item" href="#">Earrings</a></li>
+                  <li><a class="dropdown-item" href="#">Bangles</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Complete Set</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: black;">
+           <!-- <img src="https://64.media.tumblr.com/309aa10d9f023af561aca1126eb7c817/tumblr_o7xstiSvac1qc9f5po1_500.gif" alt="" height="100%" width="100%" style="width:100%"> -->
+           <video src="./Images_Used/Video_1.mp4" height="100%" width="100%" autoplay muted></video> 
+           <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Varities of Collections</h1>
+                <p><a class="btn btn-lg btn-primary" href="#">Only @ Vino Collections</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div style="background-color: black;">
+            <!-- <img src="https://64.media.tumblr.com/26603072f5be57b5af64bcff430ab3ea/tumblr_nutni2pxey1rhwfb2o4_r1_540.gif" alt="" duartion="50s" width="100%" height="100%"> -->
+            <video src="./Images_Used/Video_2.mp4" height="100%" width="100%" autoplay muted></video>
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>All Kind of Bridal Wearings</h1>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div style="background-color: black;">
+                <!-- <img src="https://wallpapercave.com/dwp1x/wp4446237.jpg" alt="" height="100%" width="100%"> -->
+                <video src="./Images_Used/Video_3.mp4" height="100%" width="100%" autoplay muted></video>
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Varities of Bangle Collections</h1>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Show more</a></p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div style="background-color: black;">
+                <!-- <img src="https://wallpapercave.com/dwp1x/wp9031188.jpg" alt="" height="100%" width="100%"> -->
+                <video src="./Images_Used/Video_4.mp4" height="100%" width="100%" autoplay muted ></video>
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <h1 class="trend mt-5">TRENDING COLLECTIONS</h1>
+        <div class="wrapper">
+            <section class="sec_1" onclick="pass_value(this)" id="1">
+                <img src="./Images_Used/wp1.jpeg" alt="">
+                <p>
+                    <h2>Antique Jewellery</h2>
+                    <span>
+                        <h3>₹350</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_2" onclick="pass_value(this)" id="2">
+                <img src="https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_640.jpg" alt="">
+                <p>
+                    <h2>Bride Jewellery</h2>
+                    <span>
+                        <h3>₹550</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_3" onclick="pass_value(this)" id="3">
+                <img src="https://cdn.pixabay.com/photo/2015/03/12/01/42/apatite-669515_640.jpg" alt="">
+                <p>
+                    <h2>Silver Jewellery</h2>
+                    <span>
+                        <h3>₹650</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_4" onclick="pass_value(this)" id="4">
+                <img src="https://cdn.pixabay.com/photo/2017/10/19/10/58/heart-2867197_640.jpg" alt="">
+                <p>
+                    <h2>Diamond Jewellery</h2>
+                    <span>
+                        <h3>₹150</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_5" onclick="pass_value(this)" id="5">
+                <img src="https://cdn.pixabay.com/photo/2015/03/12/01/44/mystic-topaz-669519_640.jpg" alt="">
+                <p>
+                    <h2>Beauty Jewellery</h2>
+                    <span>
+                        <h3>₹250</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_6" onclick="pass_value(this)" id="6">
+                <img src="https://cdn.pixabay.com/photo/2017/10/29/20/26/necklace-with-winged-heart-2900732_640.jpg" alt="">
+                <p>
+                    <h2>Groom Jewellery</h2>
+                    <span>
+                        <h3>₹450</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+
+
+
+            <section class="sec_1" onclick="pass_value(this)" id="7">
+                <img src="https://cdn.pixabay.com/photo/2017/03/07/20/32/necklace-2125146_640.jpg" alt="">
+                <p>
+                    <h2>Classic Jewellery</h2>
+                    <span>
+                        <h3>₹550</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_2" onclick="pass_value(this)" id="8">
+                <img src="https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_640.jpg" alt="">
+                <p>
+                    <h2>Bride Jewellery</h2>
+                    <span>
+                        <h3>₹650</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_3" onclick="pass_value(this)" id="9" >
+                <img src="https://cdn.pixabay.com/photo/2015/03/12/01/42/apatite-669515_640.jpg" alt="">
+                <p>
+                    <h2>Fabulous Jewellery</h2>
+                    <span>
+                        <h3>₹750</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_4"  onclick="pass_value(this)" id="10">
+                <img src="https://cdn.pixabay.com/photo/2017/10/19/10/58/heart-2867197_640.jpg" alt="">
+                <p>
+                    <h2>Anti Jewellery</h2>
+                    <span>
+                        <h3>₹850</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_5" onclick="pass_value(this)" id="11">
+                <img src="https://cdn.pixabay.com/photo/2015/03/12/01/44/mystic-topaz-669519_640.jpg" alt="">
+                <p>
+                    <h2>Stone Jewellery</h2>
+                    <span>
+                        <h3>₹950</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+            <section class="sec_6" onclick="pass_value(this)" id="12">
+                <img src="https://cdn.pixabay.com/photo/2017/10/29/20/26/necklace-with-winged-heart-2900732_640.jpg" alt="">
+                <p>
+                    <h2 id="h2">Kohinoor Jewellery</h2>
+                    <span>
+                        <h3 >₹1350</h3>
+                        <h4>Free Shipping</h4>
+                    </span>
+                </p>
+            </section>
+        </div>
+
+        <div class="container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+              <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Purchase all the Trending Collections</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 mt-5">
+                  <button type="button" class="btn btn-warning btn-lg px-4 me-md-2 fw-bold" onclick="call_insta()">Follow Us on Instagram</button>
+                  <button type="button" class="btn btn-success btn-lg px-4" onclick="call_wp()">Connect at whatsapp</button>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class="rounded-lg-3 " src="https://i.pinimg.com/236x/99/7a/7c/997a7cf9a059abf62eaced56eacdde27.jpg" alt="" width="100%">
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 py-5" id="icon_grid">
+            <h2 class="pb-2 border-bottom">Key Features</h2>
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pt-5">
+              <div class="col d-flex align-items-start">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="30%" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                    </svg>
+                  <h3 class="fw-bold mb-0 fs-4 mt-3">Free Shipping</h3>
+                </div>
+              </div>
+
+              <div class="col d-flex align-items-start">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="30%" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                    </svg>
+                  <h3 class="fw-bold mb-0 fs-4 mt-3">One Place to Get All Collections</h3>
+                </div>
+              </div>
+
+              <div class="col d-flex align-items-start">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="30%" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                        <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                    </svg>
+                  <h3 class="fw-bold mb-0 fs-4 mt-3">Whole Sale Price</h3>
+                </div>
+              </div>
+
+              <div class="col d-flex align-items-start">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="30%" fill="currentColor" class="bi bi-building-fill-check" viewBox="0 0 16 16">
+                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
+                        <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+                    </svg>
+                  <h3 class="fw-bold mb-0 fs-4 mt-3">Damage Free</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#nav_bar" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#icon_grid" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+              </ul>
+              <p class="text-center text-body-secondary">© 2023 Vino Collections</p>
+            </footer>
+        </div>
+
+    <script>
+        function pass_value(value)
+        {
+            let a = document.getElementsByTagName("h2");
+            let b = document.getElementsByTagName("h3");
+            const id = value.id
+            let jewel_name = a[Number(id)-1].innerHTML
+            let jewel_price = b[Number(id)-1].innerHTML
+
+            let img_name = document.getElementsByTagName('img')[Number(id)-1];
+            let img_details = img_name.src;
+            localStorage.setItem("image_address",img_details);
+            localStorage.setItem("product_name",jewel_name);
+            localStorage.setItem("product_price",jewel_price);
+            window.location.href="source_page.html";
+
+            localStorage.setItem("Product_Id",Number(id));
+        }
+    </script>
+</body>
+</html>

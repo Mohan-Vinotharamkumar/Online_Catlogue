@@ -1,0 +1,231 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Vino Collections</title>
+    <script src="handling.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <a class="navbar-brand col-lg-3 me-0" href="index.html">Vino Collections</a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Necklace</a></li>
+                  <li><a class="dropdown-item" href="#">Earrings</a></li>
+                  <li><a class="dropdown-item" href="#">Bangles</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Combo Sets</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+   
+    <div class="container px-4 pt-5" id="custom_cards">
+        <h2 class="pb-2 border-bottom">Today Arrivals</h2>
+        <div class="chain_trend_wrap">
+            <section class="trend_sec_1">
+                <img src="./Images_Used/26_1.jpeg" alt="" style="height: 75%;">
+                <div class="container pt-3 px-5 mx-5">
+                    <button class="trend_btn btn btn-primary px-5"  onclick="pass_value(this)" id="1">View Product</button>
+                </div>
+            </section>
+            <section class="trend_sec_2" style="position:relative;">
+                <img src="./Images_Used/26_2.jpeg" alt="" style="height: 75%;">
+                <div class="container pt-3 px-5 mx-5">
+                    <button class="trend_btn btn btn-primary px-5"  onclick="pass_value(this)" id="2">View Product</button>
+                </div>
+            </section>
+            <section class="trend_sec_3">
+                <img src="./Images_Used/26_5.jpeg" alt="" style="height: 75%;">
+                <div class="container pt-3 px-5 mx-5">
+                    <button class="trend_btn btn btn-primary px-5"  onclick="pass_value(this)" id="3">View Product</button>
+                </div>
+            </section>
+        </div>
+      </div>
+
+    <div class="container">
+        <h1 class="neck_header_cnt py-5" style="color: violet;" align="center">Trending Necklace Collections</h1>
+    </div>
+
+    <div class="wrapper">
+        <section class="sec_1" onclick="pass_value(this)" id="4">
+            <img src="./Images_Used/wp1.jpeg" alt="">
+            <p>
+                <h2>Antique Jewellery</h2>
+                <span>
+                    <h3>₹350</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_2" onclick="pass_value(this)" id="5">
+            <img src="https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_640.jpg" alt="">
+            <p>
+                <h2>Bride Jewellery</h2>
+                <span>
+                    <h3>₹550</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_3" onclick="pass_value(this)" id="6">
+            <img src="https://cdn.pixabay.com/photo/2015/03/12/01/42/apatite-669515_640.jpg" alt="">
+            <p>
+                <h2>Silver Jewellery</h2>
+                <span>
+                    <h3>₹650</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_4" onclick="pass_value(this)" id="7">
+            <img src="https://cdn.pixabay.com/photo/2017/10/19/10/58/heart-2867197_640.jpg" alt="">
+            <p>
+                <h2>Diamond Jewellery</h2>
+                <span>
+                    <h3>₹150</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_5" onclick="pass_value(this)" id="8">
+            <img src="https://cdn.pixabay.com/photo/2015/03/12/01/44/mystic-topaz-669519_640.jpg" alt="">
+            <p>
+                <h2>Beauty Jewellery</h2>
+                <span>
+                    <h3>₹250</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_6" onclick="pass_value(this)" id="9">
+            <img src="https://cdn.pixabay.com/photo/2017/10/29/20/26/necklace-with-winged-heart-2900732_640.jpg" alt="">
+            <p>
+                <h2>Groom Jewellery</h2>
+                <span>
+                    <h3>₹450</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+
+
+
+        <section class="sec_1" onclick="pass_value(this)" id="10">
+            <img src="https://cdn.pixabay.com/photo/2017/03/07/20/32/necklace-2125146_640.jpg" alt="">
+            <p>
+                <h2>Classic Jewellery</h2>
+                <span>
+                    <h3>₹550</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_2" onclick="pass_value(this)" id="11">
+            <img src="https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_640.jpg" alt="">
+            <p>
+                <h2>Bride Jewellery</h2>
+                <span>
+                    <h3>₹650</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_3" onclick="pass_value(this)" id="12" >
+            <img src="https://cdn.pixabay.com/photo/2015/03/12/01/42/apatite-669515_640.jpg" alt="">
+            <p>
+                <h2>Fabulous Jewellery</h2>
+                <span>
+                    <h3>₹750</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_4"  onclick="pass_value(this)" id="13">
+            <img src="https://cdn.pixabay.com/photo/2017/10/19/10/58/heart-2867197_640.jpg" alt="">
+            <p>
+                <h2>Anti Jewellery</h2>
+                <span>
+                    <h3>₹850</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_5" onclick="pass_value(this)" id="14">
+            <img src="https://cdn.pixabay.com/photo/2015/03/12/01/44/mystic-topaz-669519_640.jpg" alt="">
+            <p>
+                <h2>Stone Jewellery</h2>
+                <span>
+                    <h3>₹950</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+        <section class="sec_6" onclick="pass_value(this)" id="15">
+            <img src="https://cdn.pixabay.com/photo/2017/10/29/20/26/necklace-with-winged-heart-2900732_640.jpg" alt="">
+            <p>
+                <h2 id="h2">Kohinoor Jewellery</h2>
+                <span>
+                    <h3 >₹1350</h3>
+                    <h4>Free Shipping</h4>
+                </span>
+            </p>
+        </section>
+    </div>
+
+
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#nav_bar" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#custom_cards" class="nav-link px-2 text-body-secondary">Today Arrivals</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Vino Collections</p>
+        </footer>
+    </div>
+
+
+    <script>
+        function pass_value(value)
+        {
+            let a = document.getElementsByTagName("h2");
+            let b = document.getElementsByTagName("h3");
+            const id = value.id
+            let jewel_name = a[Number(id)-1].innerHTML
+            let jewel_price = b[Number(id)-1].innerHTML
+
+            let img_name = document.getElementsByTagName('img')[Number(id)-1];
+            let img_details = img_name.src;
+            localStorage.setItem("image_address",img_details);
+            localStorage.setItem("product_name",jewel_name);
+            localStorage.setItem("product_price",jewel_price);
+            window.location.href="source_page.html";
+
+            localStorage.setItem("Product_Id",Number(id));
+        }
+    </script>
+</body>
+</html>
